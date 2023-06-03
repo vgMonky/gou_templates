@@ -14,18 +14,31 @@
     <link rel="stylesheet" href="gou_css/gou_services.css">
     <link rel="stylesheet" href="gou_css/gou_title.css">
 
+    <script src="gou_funct.js"></script> 
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
 
     <title>GOU.</title>
+    
 </head>
 <body>
     <div class="ken"></div>
     <header>
         <div class="gou_header">
+            <div class="logo"> 
                 <p>GOU.</p>
-            <div class="menu">
-                <a href="home">Home</a>
-                <a href="gallery">Gallery</a>
-                <a href="contact">Contact</a>
+            </div>        
+            <a id="menu-icon" class="menu-icon" onclick="onMenuClick()">
+                <i class="fa fa-bars"></i>
+              </a>
+            <div id="navigation-bar" class="nav-bar">
+                <a href="#about">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#join_us">Join Us</a>
             </div>
         </div>
     </header>
@@ -33,8 +46,8 @@
     <main>
         <section_1>
             <div class="gou_title">
-                <h1>STUDIO</h1>
-                <h1>GOU<span style="color: rgb(41, 117, 198)">.</span></h1>
+                <h1>STUDIO
+                <br>GOU<span style="color: rgb(41, 117, 198)">.</span></h1>
                 <h2>Enhance Your Business</h2>
                 <a href="contact">Start Now</a>
             </div>
@@ -42,32 +55,68 @@
 
         <section_2>
             <div class="gou_intro">
-                <h2>We can help you <span style="font-weight: 600;">develop</span> your idea with <span style="font-weight: 600;"> strategy and communication</span></h2>
+                <h2>We can help you <span style="font-weight: 600;">develop</span> your idea with <span style="font-weight: 600;"> strategy and communication.</span></h2>
 
             </div> 
         </section_2>
 
         <section_3>
-            <div class="gou_services">
-                <p>services</p>
-                <ul>
-                    <li>Strategy Definition</li>
-                    <li>Creative Direction</li>
-                    <li>Content Production</li>
-                </ul>
-            </div>   
+            <div id="about" class="gou_services">
+                <h2 class="section-heading">Services</h2>
+                <div class="row">
+                  <div class="column">
+                    <div class="card">
+                      <div class="icon-wrapper">
+                        <i class="fas fa-broom"></i>
+                      </div>
+                      <h3>Strategy Definition</h3>
+                      <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                        consequatur necessitatibus eaque.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="card">
+                      <div class="icon-wrapper">
+                        <i class="fas fa-brush"></i>
+                      </div>
+                      <h3>Creative Direction</h3>
+                      <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                        consequatur necessitatibus eaque.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="card">
+                      <div class="icon-wrapper">
+                        <i class="fas fa-hammer"></i>
+                      </div>
+                      <h3>Content Production</h3>
+                      <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                        consequatur necessitatibus eaque.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+            </div class="gou_services">   
         </section_3>
         
         <section_4>
             <div class="gou_gallery">
-                <p>Examples (agregar caratulas negras con logo)</p>
+                <h2>Gallery</h2>
                 <br>
                 <div class="examples">
-                    <a href="gou_bior.html">01<br>BIORefugios</a>
-                    <a href="gou_surfmat.html">02<br>SurfMatter</a>
-                    <a href="gou_ombu.html">03<br>Ombu Ombu</a>
+                    <a href="gou_bior.html"></a>
+                    <a href="gou_surfmat.html"></a>
+                    <a href="gou_ombu.html"></a>
+                    <a href="gou_ombu.html"></a>
+                    <a href="gou_ombu.html"></a>
+                    <a href="gou_ombu.html"></a>
                 </div>
-                <div class="link"><a href="https://www.behance.net/victorgoudsch">other projects</a></div>
+                <div class="link"><a href="https://www.behance.net/victorgoudsch">More</a></div>
             </div> 
         </section_4>
 

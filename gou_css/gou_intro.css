@@ -1,5 +1,5 @@
 .gou_intro{
-    animation: SlowIn 4s linear;
+    animation: SlowIn 3s linear;
     text-align: center;
     padding: 1rem;
     background: rgb(41, 117, 198);
@@ -8,7 +8,7 @@
 }
 
 .gou_intro h2{
-    animation: SlowIn2 4s linear;
+    animation: SlowIn2 3s linear;
     color: white;
     text-align: center;
     font-size: 1rem;

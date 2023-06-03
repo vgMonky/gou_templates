@@ -7,37 +7,83 @@
 
 }
 
-.gou_header p{
-    font-size: 1.4rem;
+.gou_header .logo{
+    font-size: 1.2rem;
     font-weight: 600;
+    color: white;
     margin-right: 5rem;
+    display: flex;
+    align-items: center;
 }
 
-.gou_header .menu{
+.gou_header .fa-bars{
+    color: white;
+    display: none;
+}
+
+.gou_header .nav-bar{
     display: flex;
     flex-direction: row;
-    gap: 6vw;
+    gap: 2vw;
     
 }
 
-.gou_header .menu a,
-.gou_header .menu a:visited{
+.gou_header .nav-bar a,
+.gou_header .nav-bar a:visited{
     font-size: 0.8rem;
     text-decoration: none;
 
     border-radius: 15px ;
-    padding: 0 2rem;
+    padding: 0 1.5rem;
     transition: 0.4s;
 }
-.gou_header .menu a:hover,
-.gou_header .menu a:focus{
+.gou_header .nav-bar a:hover,
+.gou_header .nav-bar a:focus{
 
 color:  rgb(41, 117, 198)
 
 }
 
 
-/* for phone */
-@media screen {
+
+
+
+@media screen and (max-width: 650px) {
+    .gou_header .nav-bar {
+      display: block;
+      position: absolute;
+      top: 3.7rem;
+      right: -2rem;
+      width: 20%;
+      text-align: right;
+      margin-right: 6rem;
+      background-color: rgb(41, 117, 198);
+    }
+  
+    .gou_header .nav-bar.responsive {
+      display: none;
+      transition: 0.6ms;
+    }
+  
+    .gou_header .nav-bar a {
+      display: block;
+      padding: 0.6rem;
+      transition: 1s;
+    }
+    .gou_header .nav-bar a:hover,
+    .gou_header .nav-bar a:focus {
+        color: rgb(205, 205, 205);
+        text-align: left;
     
-}
+    }
+  
+    .gou_header .fa-bars {
+      display: block;
+      z-index: 1;
+    }
+    .gou_header .fa-bars:hover,
+    .gou_header .fa-bars:focus{
+        color: rgb(41, 117, 198);
+
+      }
+  }

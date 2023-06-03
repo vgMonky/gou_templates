@@ -3,9 +3,8 @@
     
 }
 
-.gou_gallery p{
+.gou_gallery h2{
     text-align: center;
-
 }
 
 
@@ -79,4 +78,21 @@
 .gou_gallery .link{
     text-align: center;
     margin-top: 2rem;
+}
+
+
+@media screen and (max-width: 750px) {
+    .gou_gallery .examples{
+        flex-direction: column;
+        align-items: center;
+    }
+    .gou_gallery .examples a{
+        height: 100px;
+        width: 60vw;
+    }
+    .gou_gallery .examples a:hover,
+    .gou_gallery .examples a:focus{
+        width: 90vw;
+        height: 20vh;
+    }
 }
