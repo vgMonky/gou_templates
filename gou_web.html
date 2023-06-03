@@ -36,9 +36,9 @@
                 <i class="fa fa-bars"></i>
               </a>
             <div id="navigation-bar" class="nav-bar">
-                <a href="#about">About</a>
-                <a href="#gallery">Gallery</a>
-                <a href="#join_us">Join Us</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Projects</a>
+                <a href="#contact">Contact Us</a>
             </div>
         </div>
     </header>
@@ -49,7 +49,7 @@
                 <h1>STUDIO
                 <br>GOU<span style="color: rgb(41, 117, 198)">.</span></h1>
                 <h2>Enhance Your Business</h2>
-                <a href="contact">Start Now</a>
+                <a href="#contact">Start Now</a>
             </div>
         </section_1>
 
@@ -61,7 +61,7 @@
         </section_2>
 
         <section_3>
-            <div id="about" class="gou_services">
+            <div id="services" class="gou_services">
                 <h2 class="section-heading">Services</h2>
                 <div class="row">
                   <div class="column">
@@ -105,8 +105,8 @@
         </section_3>
         
         <section_4>
-            <div class="gou_gallery">
-                <h2>Gallery</h2>
+            <div  id="gallery" class="gou_gallery">
+                <h2 >Projects</h2>
                 <br>
                 <div class="examples">
                     <a href="gou_bior.html"></a>
@@ -116,18 +116,64 @@
                     <a href="gou_ombu.html"></a>
                     <a href="gou_ombu.html"></a>
                 </div>
-                <div class="link"><a href="https://www.behance.net/victorgoudsch">More</a></div>
+                <div class="link"><a href="https://www.behance.net/victorgoudsch" target="_blank">More</a></div>
             </div> 
         </section_4>
 
-        <div class="gou_intro">
+        <div id="contact" class="gou_intro">
             <h2><span style="font-weight: 600;">Enhance</span> your business</h2>
 
         </div> 
 
         <section_5>
             <div class="gou_contact">
-                <p>contact section form</p>
+              <div class="left">
+                <h2>We will arrange a meeting.</h2>
+                <p>Reach us by completing the form.</p>
+              </div>
+              <div class="right">
+                <form action="action_page.php">
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="fname">Full Name</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="lname">Company</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="lname">Email</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="subject">Message</label>
+                    </div>
+                    <div class="col-75">
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <input type="submit" value="Submit">
+                  </div>
+                </form>
+              </div>
+              
+              </div>
+                
             </div>    
         </section_5>
 
@@ -167,8 +213,13 @@
                     getting them inspired in the process,
                     and finally producing the right solutions.</p>
 
-                <a href="contact">Contact</a>
+                <a href="#contact">Contact</a>
 
+                <div class="social">
+                  <a href="">Behance</a> 
+                  <a href="">LinkedIn</a> 
+                  <a href="">SoundCloud</a> 
+                </div>
             </div>
         </section_6>
     </main>
