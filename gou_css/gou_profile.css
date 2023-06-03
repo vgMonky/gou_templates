@@ -1,0 +1,34 @@
+.gou_profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8rem 2rem;
+
+}
+
+
+.gou_profile .image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0);
+    background-color: white;
+    border: 6px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(/gou_images/foto_vic_transp.png);
+    background-position: center;
+    background-size: cover;
+    background-size: 140%;
+    background-position-y: -28px;
+
+}
+
+.gou_profile p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
