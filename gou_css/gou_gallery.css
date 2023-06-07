@@ -30,7 +30,7 @@
 
 .gou_gallery .examples a:nth-child(1),
 .gou_gallery .examples a:visited:nth-child(1){
-    background: url(/gou_images/BIOR.jpg);
+    background: url(../gou_images/BIOR.jpg);
     background-size: cover;
     background-position: center;
 
@@ -41,7 +41,7 @@
 }
 .gou_gallery .examples a:nth-child(2),
 .gou_gallery .examples a:visited:nth-child(2){
-    background: url(/gou_images/SurfMat.jpg);
+    background: url(../gou_images/SurfMat.jpg);
     background-size: cover;
     background-position: center;
 
@@ -52,7 +52,7 @@
 }
 .gou_gallery .examples a:nth-child(3),
 .gou_gallery .examples a:visited:nth-child(3){
-    background: url(/gou_images/Ombu.png);
+    background: url(../gou_images/Ombu.png);
     background-size: cover;
     background-position: center;
 
