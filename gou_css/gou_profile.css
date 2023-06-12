@@ -41,8 +41,8 @@
     text-align: center;
 }
 
-.gou_profile a,
-.gou_profile a:visited{
+.gou_profile a.contact,
+.gou_profile a.contact:visited {
     border: 2px solid white;
     padding: 1rem 4rem;
     border-radius: 30px;
@@ -50,10 +50,24 @@
     transition: 0.6s;
 }
 
-.gou_profile a:focus,
-.gou_profile a:hover{
+.gou_profile a.contact:focus  ,
+.gou_profile a.contact:hover {
     color: white;
     background-color: rgb(41, 117, 198);
     border: 1px solid black;
     padding: 1rem 6rem;
+}
+
+.fab,
+.fab:visited{  
+    padding: 15px;  
+    text-align: center;  
+    margin: 8px 2px;  
+    font-size: 20px;  
+    width: 50px;  
+    text-decoration: none;
+  }  
+.fab:hover,
+.fab:focus{
+    opacity: 0.6;
 }
