@@ -2,14 +2,14 @@
     animation: SlowIn 3s linear;
     text-align: center;
     padding: 1rem;
-    background: rgb(41, 117, 198);
+    background: var(--Blue);
     margin-top: -4rem;
     margin-bottom: 0rem;
 }
 
 .gou_intro h2{
     animation: SlowIn2 3s linear;
-    color: white;
+    color: var(--White);
     text-align: center;
     font-size: 1rem;
     font-weight: 300;

@@ -1,6 +1,6 @@
 .gou_contact{
     display: flex;
-    background-color: white;
+    background-color: var(--White);
     padding: 12rem 2rem;
 
 }
@@ -11,7 +11,7 @@
     width: 30vw;
     margin: 1rem;
     padding: 2rem 2rem 1rem 1rem;
-    background: rgb(41, 117, 198);
+    background:var(--Blue);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -22,7 +22,7 @@
 
   border-radius: 10px;
     max-width: 2000px;
-    background-color: black;
+    background-color: var(--Black);
     margin: 1rem;
     padding: 2rem 2rem ;
 }
@@ -30,15 +30,15 @@
 
 
 .gou_contact .left h2{
-    color: white;
+    color:var(--White);
     margin-bottom: 0.5rem;
     line-height: 2rem;
 }
 .gou_contact .left p{
-    color: white;
+    color: var(--White);
 }
 .gou_contact .left h1{
-  color: white;
+  color: var(--White);
   display: flex;
   align-items: center;
 }
@@ -50,24 +50,24 @@
  input[type=text], select, textarea{
     width: 100%;
     padding: 12px;
-    border: 1px solid black;
+    border: 1px solid var(--Black);
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
-    color: black;
+    color: var(--Black);
   }
   
   /* Style the label to display next to the inputs */
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
-    color: white;
+    color: var(--White);
   }
   
   /* Style the submit button */
   input[type=submit] {
-    background-color:rgb(41, 117, 198);
-    color: white;
+    background-color: var(--Blue);
+    color: var(--White);
     margin-top: 0.5rem;
     padding: 12px 40px;
     border: none;
@@ -77,8 +77,8 @@
   }
   input:hover,
   input:focus{
-    color: rgb(41, 117, 198);
-    background-color: white;
+    color: var(--Blue);
+    background-color: var(--White);
   }
 
   /* Floating column for labels: 25% width */

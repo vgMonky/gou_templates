@@ -3,30 +3,35 @@
 
 
 /* Variables Definition */
-
+:root {
     /* Colors */
+  --Black: rgb(0, 0, 0);
+  --Blue:  rgb(41, 117, 198);
+  --White:  rgb(255, 255, 255);
+  --Gray: rgb(128,128,128);
 
-
+  --BlackScreen: rgba(0, 0, 0, 0.5);
+  --Transparent: rgba(0, 0, 0, 0);
+  
     /* Text */
+  --Font: poppins;
 
-
-    /* Margins */
-
+  }
 
 
 
 
 /*general*/
 html{scroll-behavior: smooth;
-    background-color: rgb(0, 0, 0);
+    background-color:var(--Black);
     background-size: cover;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: poppins;
-    color: white;
+    font-family: var(--Font);
+    color: var(--White);
 }
 body{
     display: flex;

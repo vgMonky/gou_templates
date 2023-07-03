@@ -10,14 +10,14 @@
 .gou_header .logo{
     font-size: 1.2rem;
     font-weight: 600;
-    color: white;
+    color: var(--White);
     margin-right: 5rem;
     display: flex;
     align-items: center;
 }
 
 .gou_header .fa-bars{
-    color: white;
+    color: var(--White);
     display: none;
 }
 
@@ -40,7 +40,7 @@
 .gou_header .nav-bar a:hover,
 .gou_header .nav-bar a:focus{
 
-color:  rgb(41, 117, 198)
+color:  var(--Blue);
 
 }
 
@@ -57,7 +57,7 @@ color:  rgb(41, 117, 198)
       width: 20%;
       text-align: right;
       margin-right: 6rem;
-      background-color: rgb(41, 117, 198);
+      background-color: var(--Blue);
     }
   
     .gou_header .nav-bar.responsive {
@@ -68,12 +68,11 @@ color:  rgb(41, 117, 198)
     .gou_header .nav-bar a {
       display: block;
       padding: 0.6rem;
-      transition: 1s;
+      transition: 0.6s;
     }
     .gou_header .nav-bar a:hover,
     .gou_header .nav-bar a:focus {
-        color: rgb(205, 205, 205);
-        text-align: left;
+        color: var(--Black);
     
     }
   
@@ -83,7 +82,7 @@ color:  rgb(41, 117, 198)
     }
     .gou_header .fa-bars:hover,
     .gou_header .fa-bars:focus{
-        color: rgb(41, 117, 198);
+        color: var(--Blue);
 
       }
   }

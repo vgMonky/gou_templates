@@ -12,9 +12,9 @@
     width: 150px;
     border-radius: 50%;
     margin-bottom: 1rem;
-    color: rgba(255, 255, 255, 0);
-    background-color: white;
-    border: 6px solid white;
+    color: var(--Transparent);
+    background-color: var(--White);
+    border: 6px solid var(--White);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@
 }
 
 .gou_profile p{
-    color: white;
+    color: var(--White);
     font-size: 0.8rem;
     font-weight: 200;
     margin-bottom: 2rem;
@@ -43,7 +43,7 @@
 
 .gou_profile a.contact,
 .gou_profile a.contact:visited {
-    border: 2px solid white;
+    border: 2px solid var(--White);
     padding: 1rem 4rem;
     border-radius: 30px;
     text-decoration: none;
@@ -52,9 +52,9 @@
 
 .gou_profile a.contact:focus  ,
 .gou_profile a.contact:hover {
-    color: white;
-    background-color: rgb(41, 117, 198);
-    border: 1px solid black;
+    color: var(--White);
+    background-color: var(--Blue);
+    border: 1px solid var(--Black);
     padding: 1rem 6rem;
 }
 

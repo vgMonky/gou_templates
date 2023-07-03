@@ -2,14 +2,14 @@
     width: 100%;
     display: grid;
     place-items: center;
-    background-color: white;
+    background-color: var(--White);
 
   }
 
   .gou_services .section-heading{
     margin-top: 6rem;
     margin-bottom: 2rem;
-    color: black;
+    color: var(--Black);
   }
 
   .gou_services .row {
@@ -26,7 +26,7 @@
     width: 100%;
     height: 100%;
     padding: 2em 1.5em;
-    background: linear-gradient(#ffffff 50%, black 50%);
+    background: linear-gradient(var(--White) 50%, var(--Black) 50%);
     background-size: 100% 200%;
     background-position: 0 2.5%;
     border-radius: 5px;
@@ -37,23 +37,23 @@
   .gou_services h3 {
     font-size: 20px;
     font-weight: 600;
-    color: black;
+    color: var(--Black);
     margin: 1em 0;
   }
   .gou_services p {
-    color: gray;
+    color: var(--Gray);
     font-size: 15px;
     line-height: 1.6;
     letter-spacing: 0.03em;
   }
   .gou_services .icon-wrapper {
-    background-color: gray;
+    background-color: var(--Gray);
     position: relative;
     margin: auto;
     font-size: 30px;
     height: 2.5em;
     width: 2.5em;
-    color: #ffffff;
+    color: var(--White);
     border-radius: 50%;
     display: grid;
     place-items: center;
@@ -65,14 +65,14 @@
     
   }
   .gou_services .card:hover .icon-wrapper {
-    background-color: black;
-    color:black;
+    background-color: var(--Black);
+    color:var(--Black);
   }
   .gou_services .card:hover h3 {
-    color: #ffffff;
+    color: var(--White);
   }
   .gou_services .card:hover p {
-    color: #f0f0f0;
+    color: var(--White);
   }
 
   @media screen and (min-width: 768px) {
