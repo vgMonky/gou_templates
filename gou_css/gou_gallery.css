@@ -31,20 +31,33 @@
 
 .gou_gallery .examples a:nth-child(1),
 .gou_gallery .examples a:visited:nth-child(1){
-    background: url(../gou_images/BIOR.jpg);
+    background: url( https://mir-cdn.behance.net/v1/rendition/project_modules/source/13a46b150982997.6304273adaac1.png);
+    background-size: cover;
+    background-position: center;
+    
+    color:var(--White);
+    background-color:var(--BlackScreen);
+    background-blend-mode: darken;
+}
+
+.gou_gallery .examples a:nth-child(2),
+.gou_gallery .examples a:visited:nth-child(2){
+    background: url(https://mir-cdn.behance.net/v1/rendition/project_modules/source/bb09dd169783463.6452a6ae0873e.png);
     background-size: cover;
     background-position: center;
 
     color:var(--White);
     background-color:var(--BlackScreen);
     background-blend-mode: darken;
-
 }
-.gou_gallery .examples a:nth-child(2),
-.gou_gallery .examples a:visited:nth-child(2){
-    background: url(../gou_images/SurfMat.jpg);
+
+.gou_gallery .examples a:nth-child(3),
+.gou_gallery .examples a:visited:nth-child(3){
+    background: url(https://mir-cdn.behance.net/v1/rendition/project_modules/source/5fbfc2152557315.632067780c4cb.jpg);
     background-size: cover;
     background-position: center;
+
+    background-position: 75% 50%;
 
     color:var(--White);
     background-color:var(--BlackScreen);
@@ -52,8 +65,8 @@
     background-blend-mode: darken;
 
 }
-.gou_gallery .examples a:nth-child(3),
-.gou_gallery .examples a:visited:nth-child(3){
+.gou_gallery .examples a:nth-child(4),
+.gou_gallery .examples a:visited:nth-child(4){
     background: url(../gou_images/Ombu.png);
     background-size: cover;
     background-position: center;
@@ -64,6 +77,31 @@
 
 }
 
+.gou_gallery .examples a:nth-child(5),
+.gou_gallery .examples a:visited:nth-child(5){
+    background: url(https://mir-cdn.behance.net/v1/rendition/project_modules/source/e9e1b7150982213.630421dbc3693.jpg);
+    background-size: cover;
+    background-position: center;
+
+    color:var(--White);
+    background-color:var(--BlackScreen);
+    background-blend-mode: darken;
+
+}
+
+.gou_gallery .examples a:nth-child(6),
+.gou_gallery .examples a:visited:nth-child(6){
+    background: url(https://mir-cdn.behance.net/v1/rendition/project_modules/source/8de152172187127.647ad059b2cda.jpg);
+    background-size: cover;
+    background-position: center;
+
+    background-position: 28% 50%;
+
+    color:var(--White);
+    background-color:var(--BlackScreen);
+    background-blend-mode: darken;
+
+}
 
 .gou_gallery .examples a:hover,
 .gou_gallery .examples a:focus{
