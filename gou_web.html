@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
 
+
     <title>GOU.</title>
     
 </head>
@@ -129,42 +130,42 @@
                 <h1>GOU.</h1>
               </div>
               <div class="right">
-                <form action="action_page.php">
+                <form id="gouform" action="/cgi-bin/sendmail.py" method="post">
                   <div class="row">
                     <div class="col-25">
-                      <label for="fname">Full Name</label>
+                      <label for="fullname">Full Name</label>
                     </div>
                     <div class="col-75">
-                      <input type="text" id="fname" name="fullname" placeholder="Your name..">
+                      <input type="text" id="fullname" name="fullname" placeholder="Your name..">
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-25">
-                      <label for="lname">Company</label>
+                      <label for="company">Company</label>
                     </div>
                     <div class="col-75">
-                      <input type="text" id="lname" name="company" placeholder="Your company..">
+                      <input type="text" id="company" name="company" placeholder="Your company..">
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-25">
-                      <label for="lname">Email</label>
+                      <label for="email">Email</label>
                     </div>
                     <div class="col-75">
-                      <input type="text" id="lname" name="email" placeholder="Email direction..">
+                      <input type="text" id="email" name="email" placeholder="Email direction..">
                     </div>
                   </div>
                   
                   <div class="row">
                     <div class="col-25">
-                      <label for="subject">Message</label>
+                      <label for="message">Message</label>
                     </div>
                     <div class="col-75">
-                      <textarea id="subject" name="subject" placeholder="Include schedule availability for a meeting date.." style="height:200px"></textarea>
+                      <textarea id="message" name="message" placeholder="Include schedule availability for a meeting date.." style="height:200px"></textarea>
                     </div>
                   </div>
                   <div class="row">
-                    <input type="submit" value="Submit">
+                    <input type="submit" id="submit" name="submit" value="submit" onclick="sendMail()">
                   </div>
                 </form>
               </div>
