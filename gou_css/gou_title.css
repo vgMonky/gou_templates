@@ -40,16 +40,24 @@
 
 @media screen and (max-width: 680px) {
     .gou_title h1{
-        font-size: 4rem;
-        line-height: 4.5rem;
+        font-size: 5.6rem;
+        line-height: 5.5rem;
+        margin: auto;
         margin-top: 4rem;
+        
+        
     }
     .gou_title h2{
-        font-size: 1rem;
+        font-size: 1.2rem;
         max-width: 500px;
         line-height: 1.5rem;
         margin: auto;
         margin-bottom: 4rem;
         margin-top: 1rem;
     }
-}
+
+    .gou_title{
+        text-align: center;
+        padding: 0rem;
+        margin:0rem;
+    }

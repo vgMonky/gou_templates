@@ -1,24 +1,24 @@
 
-#!/usr/bin/env python3
 
 import smtplib
-
+from email.message import EmailMessage
 
 sender_email = "victorgou.design@gmail.com"
 rec_email = "victorgou.design@gmail.com"
 password = "tixbxljsovrjcxjv"
-print("email login succesfull")
 
-subject = "New GOU form petition"
-body = "...form data here..."
+msg = EmailMessage()
+msg['Subject'] = "New GOU form petition"
+msg['From'] = sender_email
+msg['To'] = rec_email
+msg.set_content("...form data here...")
 
-message = f'Subject: {subject}\n\n{body}'
-
-print(message)
+print(msg)
 
 server = smtplib.SMTP('smtp.gmail.com',587)
 server.starttls()
 server.login(sender_email, password)
-server.sendmail(sender_email,rec_email,message)
+print("email login succesfull")
 
-print("Email has been sended to",rec_email)
+server.send_message(msg)
+print("Email has been sended from",sender_email, "to", rec_email)

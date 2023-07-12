@@ -25,6 +25,7 @@
 html{scroll-behavior: smooth;
     background-color:var(--Black);
     background-size: cover;
+
 }
 *{
     margin: 0;
@@ -37,6 +38,7 @@ body{
     display: flex;
     flex-flow: column nowrap;
     align-content: center;
+    scroll-behavior: smooth;
 }
 
 .ken {
