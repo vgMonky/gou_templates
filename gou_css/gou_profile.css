@@ -8,22 +8,24 @@
 
 
 .gou_profile .image{
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
+    height: 350px;
+    width: 350px;
     margin-bottom: 1rem;
     color: var(--Transparent);
     background-color: var(--White);
-    border: 6px solid var(--White);
+    border: 0px solid var(--White);
     display: flex;
     align-items: center;
     justify-content: center;
 
-    background-image: url(../gou_images/foto_vic_transp.png);
+    background-image: url(../gou_images/bw.jpg);
     background-position: center;
     background-size: cover;
-    background-size: 140%;
-    background-position-y: -28px;
+    background-size: 160%;
+    background-position-x: -110px;
+    background-position-y: 0px;
+    backdrop-filter: grayscale(100%);
+
 
 }
 
@@ -56,6 +58,7 @@
     background-color: var(--Blue);
     border: 1px solid var(--Black);
     padding: 1rem 6rem;
+    border: 2px solid var(--Blue);
 }
 
 .fab,
