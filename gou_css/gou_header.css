@@ -50,19 +50,20 @@ color:  var(--Blue);
 
 @media screen and (max-width: 650px) {
     .gou_header .nav-bar {
-      display: block;
-      position: absolute;
-      top: 3.7rem;
-      right: -2rem;
-      width: 20%;
-      text-align: right;
-      margin-right: 6rem;
-      background-color: var(--Blue);
+      display: none;
+      transition: 0.6ms;
     }
   
     .gou_header .nav-bar.responsive {
-      display: none;
-      transition: 0.6ms;
+    
+      display: block;
+      position: absolute;
+      top: 2.7rem;
+      right: -2rem;
+      width: 30%;
+      text-align: right;
+      margin-right: 4rem;
+      background-color: var(--Blue);
     }
   
     .gou_header .nav-bar a {

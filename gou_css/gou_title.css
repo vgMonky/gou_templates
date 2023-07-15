@@ -61,3 +61,16 @@
         padding: 0rem;
         margin:0rem;
     }
+}
+
+@media screen and (max-width: 460px){
+    .gou_title h1{
+        font-size: 3.2rem;
+        line-height: 3.4rem;
+    }
+
+    .gou_title h2{
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+    }
