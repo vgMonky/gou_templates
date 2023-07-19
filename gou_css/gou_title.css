@@ -44,6 +44,7 @@
         line-height: 5.5rem;
         margin: auto;
         margin-top: 4rem;
+        padding: 0px;
         
         
     }
@@ -54,23 +55,26 @@
         margin: auto;
         margin-bottom: 4rem;
         margin-top: 1rem;
+        padding: 0px;
     }
 
     .gou_title{
         text-align: center;
         padding: 0rem;
         margin:0rem;
+        
     }
 }
 
 @media screen and (max-width: 460px){
     .gou_title h1{
-        font-size: 3.2rem;
-        line-height: 3.4rem;
+        font-size: 3.4rem;
+        line-height: 3.8rem;
+        
     }
 
     .gou_title h2{
         font-size: 0.9rem;
         line-height: 1.5rem;
     }
-    }
+}
