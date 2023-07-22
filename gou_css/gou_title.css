@@ -40,41 +40,32 @@
 
 @media screen and (max-width: 680px) {
     .gou_title h1{
-        font-size: 5.6rem;
-        line-height: 5.5rem;
         margin: auto;
         margin-top: 4rem;
         padding: 0px;
         
-        
+        line-height: 20vmin;
+        font-size: calc(12px + 16vmin);  
     }
     .gou_title h2{
-        font-size: 1.2rem;
-        max-width: 500px;
-        line-height: 1.5rem;
         margin: auto;
         margin-bottom: 4rem;
         margin-top: 1rem;
         padding: 0px;
+
+        line-height: 5vmin;
+        font-size: calc(8px + 2vmin);
+    }
+    .gou_title a{
+        font-size: calc(8px + 1.2vmin);
     }
 
     .gou_title{
         text-align: center;
         padding: 0rem;
         margin:0rem;
+        height: 100vw;
+        min-height: 32rem ;
         
-    }
-}
-
-@media screen and (max-width: 460px){
-    .gou_title h1{
-        font-size: 3.4rem;
-        line-height: 3.8rem;
-        
-    }
-
-    .gou_title h2{
-        font-size: 0.9rem;
-        line-height: 1.5rem;
     }
 }
