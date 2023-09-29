@@ -42,7 +42,7 @@
 
 .gou_gallery .examples a:nth-child(2),
 .gou_gallery .examples a:visited:nth-child(2){
-    background: url(https://mir-cdn.behance.net/v1/rendition/project_modules/source/bb09dd169783463.6452a6ae0873e.png);
+    background: url(../gou_images/la\ despensa\ vegana.jpg);
     background-size: cover;
     background-position: center;
 
@@ -79,7 +79,7 @@
 
 .gou_gallery .examples a:nth-child(5),
 .gou_gallery .examples a:visited:nth-child(5){
-    background: url(https://mir-cdn.behance.net/v1/rendition/project_modules/source/e9e1b7150982213.630421dbc3693.jpg);
+    background: url(../gou_images/BB_Photo\ -\ 2.jpg);
     background-size: cover;
     background-position: center;
 
