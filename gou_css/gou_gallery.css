@@ -29,19 +29,9 @@
     transition: 0.6s;
 }
 
+
 .gou_gallery .examples a:nth-child(1),
 .gou_gallery .examples a:visited:nth-child(1){
-    background: url( https://mir-cdn.behance.net/v1/rendition/project_modules/source/13a46b150982997.6304273adaac1.png);
-    background-size: cover;
-    background-position: center;
-    
-    color:var(--White);
-    background-color:var(--BlackScreen);
-    background-blend-mode: darken;
-}
-
-.gou_gallery .examples a:nth-child(2),
-.gou_gallery .examples a:visited:nth-child(2){
     background: url(../gou_images/la\ despensa\ vegana.jpg);
     background-size: cover;
     background-position: center;
@@ -51,8 +41,8 @@
     background-blend-mode: darken;
 }
 
-.gou_gallery .examples a:nth-child(3),
-.gou_gallery .examples a:visited:nth-child(3){
+.gou_gallery .examples a:nth-child(2),
+.gou_gallery .examples a:visited:nth-child(2){
     background: url(https://mir-cdn.behance.net/v1/rendition/project_modules/source/5fbfc2152557315.632067780c4cb.jpg);
     background-size: cover;
     background-position: center;
@@ -65,9 +55,21 @@
     background-blend-mode: darken;
 
 }
+.gou_gallery .examples a:nth-child(3),
+.gou_gallery .examples a:visited:nth-child(3){
+    background: url(../gou_images/Ombu.png);
+    background-size: cover;
+    background-position: center;
+
+    color:var(--White);
+    background-color:var(--BlackScreen);
+    background-blend-mode: darken;
+
+}
+
 .gou_gallery .examples a:nth-child(4),
 .gou_gallery .examples a:visited:nth-child(4){
-    background: url(../gou_images/Ombu.png);
+    background: url(../gou_images/BB_Photo\ -\ 2.jpg);
     background-size: cover;
     background-position: center;
 
@@ -79,18 +81,6 @@
 
 .gou_gallery .examples a:nth-child(5),
 .gou_gallery .examples a:visited:nth-child(5){
-    background: url(../gou_images/BB_Photo\ -\ 2.jpg);
-    background-size: cover;
-    background-position: center;
-
-    color:var(--White);
-    background-color:var(--BlackScreen);
-    background-blend-mode: darken;
-
-}
-
-.gou_gallery .examples a:nth-child(6),
-.gou_gallery .examples a:visited:nth-child(6){
     background: url(https://mir-cdn.behance.net/v1/rendition/project_modules/source/8de152172187127.647ad059b2cda.jpg);
     background-size: cover;
     background-position: center;
