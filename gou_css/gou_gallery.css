@@ -32,7 +32,7 @@
 
 .gou_gallery .examples a:nth-child(1),
 .gou_gallery .examples a:visited:nth-child(1){
-    background: url(../gou_images/la\ despensa\ vegana.jpg);
+    background: url(../gou_images/Ldespensa.png);
     background-size: cover;
     background-position: center;
 
@@ -43,11 +43,9 @@
 
 .gou_gallery .examples a:nth-child(2),
 .gou_gallery .examples a:visited:nth-child(2){
-    background: url(https://mir-cdn.behance.net/v1/rendition/project_modules/source/5fbfc2152557315.632067780c4cb.jpg);
+    background: url(../gou_images/Lombu.png);
     background-size: cover;
     background-position: center;
-
-    background-position: 75% 50%;
 
     color:var(--White);
     background-color:var(--BlackScreen);
@@ -57,7 +55,7 @@
 }
 .gou_gallery .examples a:nth-child(3),
 .gou_gallery .examples a:visited:nth-child(3){
-    background: url(../gou_images/Ombu.png);
+    background: url(../gou_images/Lbior.png);
     background-size: cover;
     background-position: center;
 
@@ -69,23 +67,9 @@
 
 .gou_gallery .examples a:nth-child(4),
 .gou_gallery .examples a:visited:nth-child(4){
-    background: url(../gou_images/BB_Photo\ -\ 2.jpg);
+    background: url(../gou_images/Lsonder.png);
     background-size: cover;
     background-position: center;
-
-    color:var(--White);
-    background-color:var(--BlackScreen);
-    background-blend-mode: darken;
-
-}
-
-.gou_gallery .examples a:nth-child(5),
-.gou_gallery .examples a:visited:nth-child(5){
-    background: url(https://mir-cdn.behance.net/v1/rendition/project_modules/source/8de152172187127.647ad059b2cda.jpg);
-    background-size: cover;
-    background-position: center;
-
-    background-position: 28% 50%;
 
     color:var(--White);
     background-color:var(--BlackScreen);
@@ -104,24 +88,51 @@
 
 }
 
+.gou_gallery .examples a:nth-child(1):hover,
+.gou_gallery .examples a:visited:nth-child(1):focus{
+    background: url(../gou_images/la\ despensa\ vegana.jpg);
+    background-size: cover;
+    background-position: center
+}
+.gou_gallery .examples a:nth-child(2):hover,
+.gou_gallery .examples a:visited:nth-child(2):focus{
+    background: url(../gou_images/Ombu.png);
+    background-size: cover;
+    background-position: center
+}
+.gou_gallery .examples a:nth-child(3):hover,
+.gou_gallery .examples a:visited:nth-child(3):focus{
+    background: url(https://mir-cdn.behance.net/v1/rendition/project_modules/source/8de152172187127.647ad059b2cda.jpg);
+    background-size: cover;
+    background-position: center;
+
+   ;
+}
+.gou_gallery .examples a:nth-child(4):hover,
+.gou_gallery .examples a:visited:nth-child(4):focus{
+    background: url(../gou_images/Sonder\ billboard.png);
+    background-size: cover;
+    background-position: center
+}
+
 .gou_gallery .link{
     text-align: center;
     margin-top: 2rem;
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
     .gou_gallery .examples{
         flex-direction: column;
         align-items: center;
     }
     .gou_gallery .examples a{
-        height: 120px;
+        height: 180px;
         width: 90vw;
     }
     .gou_gallery .examples a:hover,
     .gou_gallery .examples a:focus{
         width: 100vw;
-        height: 30vh;
+        height: 50vh;
     }
 }
