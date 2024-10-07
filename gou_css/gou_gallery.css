@@ -1,5 +1,9 @@
 .gou_gallery{
+    margin: 10px auto 30px;
     padding: 8rem 1rem;
+    max-width: 1800px;
+    display: flex;
+    flex-direction: column;
     
 }
 
