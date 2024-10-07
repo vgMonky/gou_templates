@@ -84,59 +84,40 @@
         </div> 
 
         <section_5>
-            <div class="gou_contact">
-              <div class="left">
-                <div>
-                  <h2>We will arrange a meeting.</h2>
-                  <p>Reach us by completing the form.</p>
+          <div class="gou_contact">
+            <div class="left">
+              <div>
+                <h2>We will arrange a meeting.</h2>
+                <p>Reach us by sending a WhatsApp message.</p>
+              </div>
+              <h1>GOU.</h1>
+            </div>
+            <div class="right">
+              <form id="whatsappForm" onsubmit="sendWhatsApp(); return false;">
+                <div class="row">
+                  <div class="col-25">
+                    <label for="message">Message</label>
+                  </div>
+                  <div class="col-75">
+                    <textarea id="message" name="message" placeholder="Type your message here. Include schedule availability for a meeting date..." style="height:200px" required></textarea>
+                  </div>
                 </div>
-                <h1>GOU.</h1>
-              </div>
-              <div class="right">
-                <form  onsubmit="sendEmail(); reset(); return false;">
-                  <div class="row">
-                    <div class="col-25">
-                      <label for="fullname">Full Name</label>
-                    </div>
-                    <div class="col-75">
-                      <input type="text" id="fullname" name="fullname" placeholder="Your name.." required>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-25">
-                      <label for="company">Company</label>
-                    </div>
-                    <div class="col-75">
-                      <input type="text" id="company" name="company" placeholder="Your company..">
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-25">
-                      <label for="email">Email</label>
-                    </div>
-                    <div class="col-75">
-                      <input type="text" id="email" name="email" placeholder="Email direction.." required>
-                    </div>
-                  </div>
-                  
-                  <div class="row">
-                    <div class="col-25">
-                      <label for="message">Message</label>
-                    </div>
-                    <div class="col-75">
-                      <textarea id="message" name="message" placeholder="Include schedule availability for a meeting date.." style="height:200px" required></textarea>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <input type="submit" id="submit" name="submit" value="submit" onclick="sendMail()">
-                  </div>
-                </form>
-              </div>
-              
-              </div>
-                
-            </div>    
+                <div class="row">
+                  <input type="submit" id="submit" name="submit" value="Send to WhatsApp">
+                </div>
+              </form>
+            </div>
+          </div>
         </section_5>
+        
+        <script>
+        function sendWhatsApp() {
+          var message = document.getElementById('message').value;
+          // Replace 'YOURNUMBER' with your actual WhatsApp number including country code
+          var whatsappUrl = `https://wa.me/+59898449788?text=${encodeURIComponent(message)}`;
+          window.open(whatsappUrl, '_blank');
+        }
+        </script>
 
         <section_6>
             <div class="gou_profile">
