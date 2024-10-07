@@ -4,13 +4,11 @@
     max-width: 1800px;
     display: flex;
     flex-direction: column;
-    
 }
 
 .gou_gallery h2{
     text-align: center;
 }
-
 
 .gou_gallery .examples{
     display: flex;
@@ -24,106 +22,62 @@
     font-size: 1.3rem;
     font-weight: 600;
     text-align: center;
-    background-color:var(--White);
+    background-color: var(--White);
     padding: 2rem 2rem;
     width: 30vw;
     height: 25rem;
- 
-
     transition: 0.6s;
-}
-
-
-.gou_gallery .examples a:nth-child(1),
-.gou_gallery .examples a:visited:nth-child(1){
-    background: url(../gou_images/Ldespensa.png);
+    position: relative;
+    overflow: hidden;
+    color: var(--White);
+    background-color: var(--BlackScreen);
+    background-blend-mode: darken;
     background-size: cover;
     background-position: center;
-
-    color:var(--White);
-    background-color:var(--BlackScreen);
-    background-blend-mode: darken;
 }
 
-.gou_gallery .examples a:nth-child(2),
-.gou_gallery .examples a:visited:nth-child(2){
-    background: url(../gou_images/Lombu.png);
+.gou_gallery .examples a::before,
+.gou_gallery .examples a:visited::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-size: cover;
     background-position: center;
-
-    color:var(--White);
-    background-color:var(--BlackScreen);
- 
-    background-blend-mode: darken;
-
-}
-.gou_gallery .examples a:nth-child(3),
-.gou_gallery .examples a:visited:nth-child(3){
-    background: url(../gou_images/Lbior.png);
-    background-size: cover;
-    background-position: center;
-
-    color:var(--White);
-    background-color:var(--BlackScreen);
-    background-blend-mode: darken;
-
+    opacity: 0;
+    transition: opacity 0.6s;
 }
 
-.gou_gallery .examples a:nth-child(4),
-.gou_gallery .examples a:visited:nth-child(4){
-    background: url(../gou_images/Lsonder.png);
-    background-size: cover;
-    background-position: center;
+.gou_gallery .examples a:nth-child(1) { background-image: url(../gou_images/Ldespensa.png); }
+.gou_gallery .examples a:nth-child(2) { background-image: url(../gou_images/Lombu.png); }
+.gou_gallery .examples a:nth-child(3) { background-image: url(../gou_images/Lbior.png); }
+.gou_gallery .examples a:nth-child(4) { background-image: url(../gou_images/Lsonder.png); }
 
-    color:var(--White);
-    background-color:var(--BlackScreen);
-    background-blend-mode: darken;
-
-}
+.gou_gallery .examples a:nth-child(1)::before { background-image: url(../gou_images/la\ despensa\ vegana.jpg); }
+.gou_gallery .examples a:nth-child(2)::before { background-image: url(../gou_images/Ombu.png); }
+.gou_gallery .examples a:nth-child(3)::before { background-image: url(https://mir-cdn.behance.net/v1/rendition/project_modules/source/8de152172187127.647ad059b2cda.jpg); }
+.gou_gallery .examples a:nth-child(4)::before { background-image: url(../gou_images/Sonder\ billboard.png); }
 
 .gou_gallery .examples a:hover,
 .gou_gallery .examples a:focus{
     font-size: 1.6rem;
     font-weight: 600;
     width: 60vw;
-
     background-color: var(--Transparent);
     background-blend-mode: darken;
-
 }
 
-.gou_gallery .examples a:nth-child(1):hover,
-.gou_gallery .examples a:visited:nth-child(1):focus{
-    background: url(../gou_images/la\ despensa\ vegana.jpg);
-    background-size: cover;
-    background-position: center
-}
-.gou_gallery .examples a:nth-child(2):hover,
-.gou_gallery .examples a:visited:nth-child(2):focus{
-    background: url(../gou_images/Ombu.png);
-    background-size: cover;
-    background-position: center
-}
-.gou_gallery .examples a:nth-child(3):hover,
-.gou_gallery .examples a:visited:nth-child(3):focus{
-    background: url(https://mir-cdn.behance.net/v1/rendition/project_modules/source/8de152172187127.647ad059b2cda.jpg);
-    background-size: cover;
-    background-position: center;
-
-   ;
-}
-.gou_gallery .examples a:nth-child(4):hover,
-.gou_gallery .examples a:visited:nth-child(4):focus{
-    background: url(../gou_images/Sonder\ billboard.png);
-    background-size: cover;
-    background-position: center
+.gou_gallery .examples a:hover::before,
+.gou_gallery .examples a:focus::before {
+    opacity: 1;
 }
 
 .gou_gallery .link{
     text-align: center;
     margin-top: 2rem;
 }
-
 
 @media screen and (max-width: 900px) {
     .gou_gallery .examples{
