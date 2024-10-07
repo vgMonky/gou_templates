@@ -1,99 +1,42 @@
-.gou_services {
-    width: 100%;
-    display: grid;
-    place-items: center;
-    background-color: var(--White);
-    
-  }
+.services {
+  max-width: 800px;
+  margin: 0px auto 150px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center children horizontally */
+}
 
-  .gou_services .section-heading{
-    margin-top: 6rem;
-    margin-bottom: 2rem;
-    color: var(--Black);
-  
-  }
+.services h2 {
+  text-align: center;
+  color: var(--White);
+  margin-bottom: 2rem;
+  width: 100%; /* Ensure full width for proper centering */
+}
 
-  .gou_services .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 10rem;
-  }
-  .gou_services .column {
-    width: 100%;
-    padding: 0 1em 1em 1em;
-    text-align: center;
+.service-list {
+  list-style-type: none;
+  padding: 0;
+  width: 100%; /* Ensure full width for proper centering */
+}
 
-    
-  }
-  .gou_services .card {
-    width: 100%;
-    height: 100%;
-    padding: 2em 1.5em;
-    
+.service-list li {
+  max-width: 800px;
+  width: 100%; 
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
 
-    background: linear-gradient(var(--White) 50%, var(--Black) 50%);
-    background-size: 100% 200%;
-    background-position: 0 2.5%;
-    border-radius: 5px;
-    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
-    cursor: pointer;
-    transition: 0.5s;
+}
 
-  }
-  .gou_services h3 {
-    font-size: 20px;
-    font-weight: 600;
-    color: var(--Blue);
-    margin: 1em 0 0 0;
-  }
-  .gou_services .subtitle{
-    font-weight: 00;
-    font-size: 1rem;
-    color: var(--Black);
-    margin: 0 0 1rem 0;
-  }
-  .gou_services p {
-    color: var(--Gray);
-    font-size: 15px;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
-    display: none;
-  }
-  .gou_services .icon-wrapper {
-    background-color: var(--Black);
-    position: relative;
-    margin: auto;
-    font-size: 30px;
-    height: 2.5em;
-    width: 2.5em;
-    color: var(--White);
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    transition: 0.5s;
-  }
-  .gou_services .card:hover {
+.service-list h3 {
+  color: var(--Blue);
+  margin-top: 0;
+  text-align: center; /* Center the heading */
+}
 
-    background-position: 0 100%;
-    
-  }
-  .gou_services .card:hover .icon-wrapper {
-    background-color: var(--Black);
-    color:var(--Black);
-  }
-  .gou_services .card:hover h3 {
-    color: var(--White);
-  }
-  .gou_services .card:hover p {
-    color: var(--White);
-  }
-
-  @media screen and (min-width: 950px) {
-    .gou_services {
-      padding: 1em 3em;
-    }
-    .gou_services .column {
-      flex: 0 0 33.33%;
-      max-width: 33.33%;
-    }
-  }
+.service-list p {
+  color: var(--White);
+  margin-bottom: 0;
+  text-align: center; /* Center the paragraph text */
+}
