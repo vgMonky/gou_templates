@@ -2,16 +2,16 @@
 
 .gou_contact{
     display: flex;
-    background-color: var(--White);
+    /* background-color: var(--White); */
     padding: 7rem 2rem;
+    justify-content: center;
 }
 
 .gou_contact .left{
     border-radius: 10px;
-
     width: 30vw;
     max-width: 400px;
-    margin: 1rem;
+    margin: 0.5rem;
     padding: 2rem 2rem 1rem 1rem;
     background:var(--Blue);
     display: flex;
@@ -21,12 +21,11 @@
   }
 
 .gou_contact .right{
-    width: 70vw;
-    border-radius: 10px;
-    background-color: var(--Black);
-    margin: 1rem;
-    padding: 2rem 2rem ;
+    margin: 0.5rem;
 
+}
+.gou_contact .right p{
+  color: var(--Black);
 }
 
 
@@ -53,73 +52,26 @@
     width: 100%;
     padding: 12px;
     border: 1px solid var(--Black);
-    border-radius: 4px;
+    border-radius: 10px;
     box-sizing: border-box;
-    resize: vertical;
     color: var(--Black);
   }
   
-  /* Style the label to display next to the inputs */
-  label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-    color: var(--White);
-  }
-  
-  /* Style the submit button */
-  input[type=submit] {
-    background-color: var(--Blue);
-    color: var(--White);
-    margin-top: 0.5rem;
-    padding: 12px 40px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
-    width: 75%;
-  }
-  input:hover,
-  input:focus{
-    color: var(--Blue);
-    background-color: var(--White);
-  }
 
-  /* Floating column for labels: 25% width */
-  .col-25 {
 
-    float: left;
-    width: 25%;
-    margin-top: 6px;
-  }
-  
-  /* Floating column for inputs: 75% width */
-  .col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
   
   button[type=submit] {
     background-color: var(--Blue);
     color: var(--White);
     margin-top: 0.5rem;
-    padding: 12px 40px;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
-    float: right;
-    width: 75%;
     font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
   
   button[type=submit]:hover,
@@ -137,11 +89,7 @@
   }
 
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 800px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
+  @media screen and (max-width: 600px) {
 
     .gou_contact {
         flex-direction: column;
@@ -163,18 +111,13 @@
     }
     .gou_contact .right{
         width: 100%;
-        padding: 1rem;
         margin: 1rem;
         margin-top: 0.6rem;
-    }
-    input[type=submit] {
-        margin-bottom: 1rem;
     }
   
     button[type=submit] {
       width: 100%;
-      margin-top: 0;
-      margin-bottom: 1rem;
+      margin-top: 0.2rem;
     }
 
 
